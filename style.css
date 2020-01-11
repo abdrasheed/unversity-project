@@ -1,0 +1,273 @@
+body{
+    background: #eceef2;;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width:60%;
+    margin:auto
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.box-sizing{
+    box-sizing: border-box;
+}
+.logo{
+    text-align: center;
+    margin-top:50px;
+    font-size: 60px;
+    font-family: sans-serif;   
+    text-transform: capitalize; 
+    color: #0077C5;
+}
+.edit{
+    color: #616161;
+}
+.register-box{
+    margin: auto;
+    width:22%;
+    border: 1px solid rgb(182, 180, 180);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px 50px 50px 50px;
+    background: white;
+}
+.text-sign-up,.text-sign-in{
+    color: #616161;
+    margin-top:10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link-sign-up,.link-sign-in{
+    text-decoration: none;
+    color: #0077C5;
+}
+.form-reguster{
+    margin: 50px 0 auto;
+    text-align: center;
+
+}
+.input-userName,.input-email,.input-password,.input-repassword,.input-user-name{
+    width:285px;
+    height: 25px;
+    margin-bottom:10px;
+    padding:5px 0 2px 5px;
+    border: none;
+    border-bottom:1px solid rgb(161, 161, 161);
+}
+.sign-in,.sign-up{
+    width: 100%;
+    height: 30px;;
+    border-radius: 5px;
+    border: 1px solid #b6b6b6;
+    margin-top: 15px;
+    background: #0077C5;
+    color: #fff;
+    font-size: 13px
+}
+/*start footer*/
+.footer{
+    padding:7px 0;
+    width: 100%;
+    margin-top:150px;
+}
+.logo-footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;   
+    text-transform: capitalize;
+    color: #0077C5; 
+}
+.edit-footer{
+    color: #3d3c3c;
+}
+/*end footer*/
+
+/******************************************START TEACHER PAGE******************************************/
+
+/*start header*/
+#header{
+    background:#dbdada;
+    width: 100%;
+    box-shadow: 0 0px 18px #888888;
+
+}
+.ul-header{
+    list-style: none;
+    padding: 0;
+    padding-left:20px
+}
+.links-header{
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: 15px;
+    color: #0077C5;
+}
+.links-header:hover{
+    background-color:#b4b4b4;
+}
+.logo-header{
+    margin:5px 216px;
+    font-family: sans-serif;   
+    text-transform: capitalize; 
+    color: #0077C5;
+}.image-user{
+    width:22px;
+    height:22px;
+}
+.link-image{
+    display: block;
+    margin:12px 0;
+    margin-left: 220px;
+    
+}
+.link-sign-out{
+    text-decoration: none;
+    margin: 16px 30px;
+    display: block;
+    font-size: 15px;
+    color: #0077C5;
+}
+.link-sign-out:hover{
+    color:#585858;
+}
+/*end header*/
+/*start main*/
+#info-profile{
+    height: 250px;
+    margin-top: 100px;
+}
+.profile-image{
+    float: left;
+    width:30%;
+    height: 100%;
+}
+.profile-image img{
+    width:100%;
+    height: 100%;
+}
+.info-text{
+    float: right;
+    margin:20px 0;
+    width:65%;
+}
+.info-text .info-user{
+    color: #0077C5;
+}
+.info-text .info-cv{
+    color:#585858;
+    line-height: 1.4em;
+    font-size: 18px;
+}
+#requerdSignIn,#requerdName,#requerdEmail,#requerdPassword,#requerdCPassword{
+    font-size: 12px;
+    color: red;
+    text-align: left;
+}
+#requerdSuccess{
+    font-size: 18px;
+    color: green;
+}
+/*end main*/
+.calculate{
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #b6b6b6;
+    background: #0077C5;
+    color: #fff;
+    font-size: 13px;
+}
+.box-cal{
+    margin-top: 15px;
+}
+.box-gpa{
+    margin-top:50px
+}
+.laple-gpa{
+    color:#585858;
+    
+}
+.calculate-gpa{
+    width:40%;
+    height: 25px;
+    padding:5px 0 2px 5px;
+    border:1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+}
+label{
+    margin-top:8px;
+    color:#0077C5;
+}
+.gpa{
+    width:40%;
+    height: 25px;
+    padding:5px 0 2px 5px;
+    border:1px solid #0077C5;
+    border-radius: 3px;
+    text-align: center;
+}
+#jpa-cal{
+    color:green;
+    margin:0;
+    margin-top: 3px;
+}
+#message{
+    color: red;
+    font-size: 12px;
+}
+#main #table-users{
+    text-align: center;
+    width: 100%;
+    background: #0077C5;
+    margin-top:150px;
+    color: black;
+    border-radius: 10px;
+    padding:20px;
+    border:1px solid black;
+}
+.table-design{
+    color: white;
+    border:1px solid black
+}
+.btn-edit{
+    margin: 0;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #585858;
+    background-color: #585858;
+    color: black;
+    font-weight: bold;
+}
+.btn-delete{
+    margin: 0;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+.btn-save{
+    margin: 0;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid green;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+.input-edit{
+    width: 70%;
+    border:1px solid black;
+    border-radius: 2px;
+    padding:3px 3px
+}

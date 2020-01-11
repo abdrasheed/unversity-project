@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="function.js"> 
+    </head>
+    <body>
+        <!--start header-->
+        <header id="header" class="flex">
+            <ul class="ul-header flex">
+                <li class="li-header"><a href="user-std.html" class="links-header">HOME</a></li>
+                <li class="li-header"><a href="#" class="links-header">CONTACT US</a></li>
+                <li class="li-header"><a href="#" class="links-header">ABOUT US</a></li>
+            </ul>
+            <h1 class="logo-header"><span class="edit">M</span>OO<span class="edit">D</span>LE</h1>
+            <a class="link-image" href="profile-std.html"><img class="image-user" src="image/user.png"></a>
+            <a href="sign-in.html" class="link-sign-out">SIGN OUT</a>
+        </header>
+        <!--end header-->
+        <!--start main-->
+        <main>
+            <h1 class="logo"> Calculate the <span class="edit">GPA</span></h1>
+            <div class="register-box">
+                <p class="text-sign-up">Please Enter The INFO</p>
+                <form class="form-reguster" name="form-calculate" onsubmit="return calculateGpa()">
+                    <div class="box-cal flex">
+                        <input class="calculate-gpa" type="text" placeholder="Your Mark 1" name="mark1"><label>>></label>
+                        <input class="calculate-gpa" type="text" placeholder="Number Of Hours" name="hours1">
+                    </div>
+                    <div class="box-cal flex">
+                        <input class="calculate-gpa" type="text" placeholder="Your Mark 2" name="mark2"><label>>></label>
+                        <input class="calculate-gpa" type="text" placeholder="Number Of Hours" name="hours2">
+                    </div>
+                    <div class="box-cal flex">
+                        <input class="calculate-gpa" type="text" placeholder="Your Mark 3" name="mark3"><label>>></label>
+                        <input class="calculate-gpa" type="text" placeholder="Number Of Hours" name="hours3">
+                    </div>
+                    <div class="box-cal flex">
+                        <input class="calculate-gpa" type="text" placeholder="Your Mark 4" name="mark4"> <label>>></label>
+                        <input class="calculate-gpa" type="text" placeholder="Number Of Hours" name="hours4">
+                    </div>
+                    <p id="message"></p>
+                    <div class="box-gpa flex">
+                        <button class="calculate" onsubmit="calculateGpa()"> Calculate </button> <label class="laple-gpa">>></label>
+                        <div class="gpa">
+                            <p id="jpa-cal"></p>
+                        </div>
+                    </div>     
+                </form>
+            </div>
+        </main>
+        <!--end main-->
+        <!--start footer-->
+        <footer class="footer">
+            <h1 class="logo-footer"><span class="edit-footer">M </span>O O <span class="edit-footer">D </span>L E</h1>
+        </footer>
+        <!--end footer-->
+        <script src="function.js"> 
+        
+        </script> 
+        
+    </body>
+</html>

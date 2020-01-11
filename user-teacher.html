@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html id="user-teacher-page">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--start header-->
+        <header id="header" class="flex">
+            <ul class="ul-header flex">
+                <li class="li-header"><a href="user-teacher.html" class="links-header">HOME</a></li>
+                <li class="li-header"><a href="new-user.html" class="links-header">NEW USER</a></li>
+                <li class="li-header"><a href="#" class="links-header">CONTACT US</a></li>
+                <li class="li-header"><a href="#" class="links-header">ABOUT US</a></li>
+            </ul>
+            <h1 class="logo-header"><span class="edit">M</span>OO<span class="edit">D</span>LE</h1>
+            <a class="link-image" href="profile-teachers.html"><img class="image-user" src="image/user.png"></a>
+            <a href="sign-in.html" class="link-sign-out">SIGN OUT</a>
+        </header>
+        <!--start main-->
+        <main id="main">
+            <div class="container">
+                <table id="table-users" border>
+                    <tr class="table-design">
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>EMAIL</th>
+                        <th>PASSWORD</th>
+                        <th>AGE</th>
+                        <th colspan="2">OPERATIONS</th>
+                    </tr>
+                    <tr></tr>
+                </table>
+                <p id="s"></p>
+            </div>    
+        </main>
+        <!--end main-->
+        <!--end header-->
+
+        <!--start footer-->
+        <footer class="footer">
+            <h1 class="logo-footer"><span class="edit-footer">M </span>O O <span class="edit-footer">D </span>L E</h1>
+        </footer>
+        <!--end footer-->
+        <script src="function.js">
+           getAllUser();
+        </script>
+
+        <script>getAllUser();</script>        
+    </body>
+</html>

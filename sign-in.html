@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">   
+    </head>
+    <body>
+        <!--start header-->
+        <header>
+            
+        </header>
+        <!--end header-->
+        <!--start main-->
+        <main>
+            <h1 class="logo"><span class="edit">M</span>OO<span class="edit">D</span>LE</h1>
+            <div class="register-box">
+                <p class="text-sign-up">if you have not account <a class="link-sign-up" href="sign-up.html">sign-up</a></p>
+                <form class="form-reguster" name="formSignIn" onsubmit="return validSignIn()">
+                    <input class="input-userName" type="text" placeholder="user name" name="nameSignIn"><br>
+                    <p id="requerdSignIn"></p>
+                    <input class="input-password" type="password" placeholder="password" name="passwordSignIn"><br>
+                    <button class="sign-in" onsubmit="validSignIn()"> Sign In </button>                         
+                </form>
+            </div>
+        </main>
+        <!--end main-->
+        <!--start footer-->
+        <footer class="footer">
+            <h1 class="logo-footer"><span class="edit-footer">M </span>O O <span class="edit-footer">D </span>L E</h1>
+        </footer>
+        <!--end footer-->
+        <script src="function.js"></script>
+    </body>
+</html>

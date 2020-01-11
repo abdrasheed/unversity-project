@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="function.js">
+    </head>
+    <body>
+        <!--start header-->
+        <header>
+        </header>
+        <!--end header-->
+        <header id="header" class="flex">
+            <ul class="ul-header flex">
+                <li class="li-header"><a href="user-teacher.html" class="links-header">HOME</a></li>
+                <li class="li-header"><a href="new-user.html" class="links-header">NEW USER</a></li>
+                <li class="li-header"><a href="#" class="links-header">CONTACT US</a></li>
+                <li class="li-header"><a href="#" class="links-header">ABOUT US</a></li>
+            </ul>
+            <h1 class="logo-header"><span class="edit">M</span>OO<span class="edit">D</span>LE</h1>
+            <a class="link-image" href="profile-std.html"><img class="image-user" src="image/user.png"></a>
+            <a href="sign-in.html" class="link-sign-out">SIGN OUT</a>
+        </header>
+        <!--start main-->
+        <main>
+            <h1 class="logo"><span class="edit">M</span>OO<span class="edit">D</span>LE</h1>
+            <div class="register-box">
+                <p class="text-sign-in">if you have account <a class="link-sign-in" href="sign-in.html">sign-in</a></p>
+                <form class="form-reguster" name="formNewUser">
+                    <input class="input-user-name" type="text" placeholder="user name" name="name"><br>
+                    <p id="requerdName"></p>
+                    <input class="input-email" type="text" placeholder="email" name="email"><br>
+                    <p id="requerdEmail"></p>
+                    <input class="input-password" type="password" placeholder="password" name="password"><br>
+                    <p id="requerdPassword"></p>
+                    <input class="input-repassword" type="password" placeholder="age" name="age"><br>
+                    <p id="requerdCPassword"></p>
+                    <button class="sign-up" type="submit" onclick="addUser()"> Sign Up </button>
+                    <p id="requerdSuccess"></p>                         
+                </form>
+            </div>
+        </main>
+        <!--end main-->
+        <!--start footer-->
+        <footer class="footer">
+            <h1 class="logo-footer"><span class="edit-footer">M </span>O O <span class="edit-footer">D </span>L E</h1>
+        </footer>
+        <!--end footer-->
+        <script src="function.js"></script>
+    </body>
+</html>
